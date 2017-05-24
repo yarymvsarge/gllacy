@@ -229,17 +229,77 @@
               </div>
             </div>
             <div class="mailing news__item news__item--right">
-              <p class="mailing__article">Подпишитесь на нашу сладкую рассылку
-  и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
-              <form action="#" method="POST" class="mailing__form">
-                <input type="text" id="mailing__e-mail" name="e-mail" placeholder="Электронная почта">
-                <label for="mailing__e-mail">Электронная почта</label>
-                <button type="submit" class="btn">Отправить</button>
-              </form>
+              <div class="mailing-wrapper">
+                <p class="mailing__article">Подпишитесь на нашу сладкую рассылку
+    и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+                <form action="#" method="POST" class="mailing__form">
+                  <div class="mailing__form-wrapper">
+                    <input type="text" id="mailing__e-mail" name="e-mail" placeholder="Электронная почта">
+                    <label for="mailing__e-mail">Электронная почта</label>
+                    <button type="submit" class="btn mailing-form__btn">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="map">
+          <div class="map-wrapper">
+            <div class="map__info">
+              <p class="map__text">
+                Адрес главного офиса и <br>офлайн магазина:<br>
+                <b class="map__important">ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+              </p>
+              <p class="map__text">
+                Для заказов по телефону:<br>
+                <span class="map__hours"><b class="map__important">8 812 450-25-25</b><br>(с 10 до 20 ежедневно)</span>
+              </p>
+              <a href="#" class="btn map__button">Форма обратной связи</a>
             </div>
           </div>
         </section>
       </main>
+      <footer class="page-footer clearfix">
+        <ul class="footer-social">
+          <li class="footer-social__item">
+            <a href="https://twitter.com/" class="footer-social__btn">
+              <svg class="footer-social__icon"><use xlink:href="img/sprite.svg#icon-twitter"/></svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="https://instagram.com/" class="footer-social__btn">
+              <svg class="footer-social__icon"><use xlink:href="img/sprite.svg#icon-inst"/></svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="https://facebook.com/" class="footer-social__btn">
+              <svg class="footer-social__icon"><use xlink:href="img/sprite.svg#icon-facebook"/></svg>
+            </a>
+          </li>
+          <li class="footer-social__item">
+            <a href="https://vk.com/" class="footer-social__btn">
+              <svg class="footer-social__icon"><use xlink:href="img/sprite.svg#icon-vk"/></svg>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-copyright">
+          <img src="img/htmlacademy-logo.svg" alt="Логотип HTML Academy" width="107" height="36">
+          <p class="footer-copyright__info">Сделано в <a href="https://htmlacademy.ru/" class="footer-copyright__ref">HTML Academy</a> © 2016</p>
+        </div>
+        <div class="footer-supplier clearfix">
+          <div class="footer-supplier__column footer-supplier__column--left">
+            <a href="#" class="footer-supplier__for-supps">
+              <svg class="icon-heart"><use xlink:href="img/sprite.svg#icon-heart"/></svg>
+Для поставщиков</a>
+            <a href="#">О производстве</a>
+          </div>
+          <div class="footer-supplier__column footer-supplier__column--right">
+            <a href="#">Наши документы</a>
+            <a href="#">Экологические стандарты</a>
+          </div>
+        </div>
+
+      </footer>
     </div>
   </body>
 </html>
